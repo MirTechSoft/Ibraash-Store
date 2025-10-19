@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style sing.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+       <!-- HEADER  -->
+       <header>
+        <!-- NAV  -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="./brand , front & logo img/navber logo.png" width="125px">
+            </div>
+           
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="./index.html"><h3> Home</a></li></h3>
+                    <li><a href="./product.html"><h3> Product</a></li></h3>
+                    <li><a href="./mens.html"><h3> Mens</a></li></h3>
+                    <li><a href="./womens.html"><h3> Womens</a></li></h3>
+                    <li><a href="./t-shirt.html"><h3> Shirt</a></li></h3>
+                    <li><a href="./login up.html" class="a-color"><h4> Login</a></li></h4>
+                    <li><a href="./sing up.html" class="a-color"><h4> Sing up</a></li></h4>
+
+                </ul>
+                <!-- CART ICON  -->
+            </nav>
+            <style>
+                #p-1{
+                       margin-top: 5px;
+                   }
+           
+           </style>
+        
+            <img src="./images//menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+</header>
+<section>
+<div id="id01" >
+  
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1 style="margin-left: 14.5vh; font-size: 35px;">Sign Up</h1> <br>
+      
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        
+        <button type="submit" >Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+</section>
+   <!-- footer -->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Downlod Our App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="app-logo">
+                    <img src="./images/play-store.png">
+                    <img class="trsition" src="./images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="./brand , front & logo img/footer logo.png">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facbook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <!-- copyright -->
+        <hr>
+        <br>
+        <p class="copyright">Copyright 2024-Ibraash Store All Right Store|Privacy And Cokies Statment</p>
+    </div>
+</div>
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "400px"
+        }
+        else {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+<script src="./sing.js"></script>
+
+</body>
+</html>
