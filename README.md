@@ -41,4 +41,13 @@ Although the backend is not yet added, the structure is fully ready for integrat
 | Design Type | Responsive Landing + E-commerce Layout |
 
 ---
-
+Project Structure
+📦 ibrash-store
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   └── (all store-related images)
+└── README.md
